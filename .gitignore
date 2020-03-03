@@ -12,6 +12,9 @@ o/
 t/
 TAGS
 
+build/
+installdir/
+
 # latex
 *.aux
 *.log
@@ -48,6 +51,8 @@ Tutorials/EB/Donut/Exec/ls_plt*
 *.pvd
 *.visit
 *.pvsm
+**/plt*/
+**/Backtrace.*
 
 # local config
 Tools/GNUMake/Make.local
