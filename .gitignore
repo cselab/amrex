@@ -14,6 +14,8 @@ TAGS
 
 build/
 installdir/
+gnu*/
+GNUmakefile
 
 # latex
 *.aux
@@ -52,6 +54,7 @@ Tutorials/EB/Donut/Exec/ls_plt*
 *.visit
 *.pvsm
 **/plt*/
+**/chk*/
 **/Backtrace.*
 
 # local config
