@@ -25,7 +25,10 @@ dst='gnu3D_DP'
 build ${dst}
 
 dst='gnu3D_SP'
-build ${dst} -DENABLE_DP=NO
+build ${dst} -DENABLE_DP=OFF
+
+dst='gnu3D_SP_NOMPI'
+build ${dst} -DENABLE_DP=OFF -DENABLE_MPI=OFF
 
 # Classical make
 # build()
