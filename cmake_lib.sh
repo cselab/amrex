@@ -16,7 +16,7 @@ build()
         -DCMAKE_C_COMPILER=mpicc \
         -DCMAKE_CXX_COMPILER=mpic++ \
         -DCMAKE_BUILD_TYPE=RelWithDebInfo "$@" ..
-    make -j
+    make -j8
     make install
     cd ..
 }
